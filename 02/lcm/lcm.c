@@ -2,9 +2,9 @@ unsigned int	ft_hcf(unsigned int a, unsigned int b)
 {
 	unsigned int	hcf;
 
-	hcf = a / 2;
+	hcf = a;
 	if (a < b)
-		hcf = b / 2;
+		hcf = b;
 	while (hcf > 0)
 	{
 		hcf--;

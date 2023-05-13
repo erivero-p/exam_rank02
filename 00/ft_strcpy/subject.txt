@@ -1,0 +1,6 @@
+Reproduce the behavior of the function strcpy (man strcpy).
+
+The stpcpy() and strcpy() functions copy the string src to dst (including the terminating `\0' character.)
+
+Your function must be declared as it follows:
+char *ft_strcpy(char *s1, char *s2);
